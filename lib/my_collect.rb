@@ -11,6 +11,6 @@ new_arr
 end
 
 my_collect(arr) do |
-  new_arr.push(yield arr)
+  new_arr.push(yield (arr[i])
 end
 
