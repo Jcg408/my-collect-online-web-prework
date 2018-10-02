@@ -10,7 +10,7 @@ def my_collect (arr)
 new_arr
 end
 
-my_collect(arr) do |x|
-  new_arr.puxh(yield)
+my_collect(arr) do |
+  new_arr.push(yield arr)
 end
 
