@@ -8,6 +8,7 @@ def my_collect (arr)
     i +=1
   end
 new_arr.push(yield arr[i])
+new_arr
 end
 
 
