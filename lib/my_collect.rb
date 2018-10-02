@@ -7,11 +7,8 @@ def my_collect (arr)
     yield arr[i]
     i +=1
   end
-new_arr
+new_arr.push{yield arr[i])
 end
 
-my_collect(arr) do |x|
-  new_arr.push(yield )
-end
 
 
