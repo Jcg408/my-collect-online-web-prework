@@ -11,6 +11,6 @@ new_arr
 end
 
 my_collect(arr) do |x|
-  new_arr << x
+  new_arr << 
 end
 
