@@ -1,9 +1,9 @@
 arr = []
 
 def my_collect (arr)
-  
+    i = 0
   new_arr = []
-  i = 0
+
   while i>arr.length
   x=  yield arr[i]
     i +=1
