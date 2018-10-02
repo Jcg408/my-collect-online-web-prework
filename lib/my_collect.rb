@@ -7,7 +7,7 @@ def my_collect (arr)
     yield arr[i]
     i +=1
   end
-new_arr.push{yield arr[i])
+new_arr.push(yield arr[i])
 end
 
 
